@@ -1,0 +1,173 @@
+
+/* Main content container with fade-in animation */
+.container {
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  color: lavenderblush;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Contact form styles with slide-in animation */
+.contact-form {
+  margin-bottom: 30px;
+  animation: slideInLeft 1s ease-in;
+}
+
+.contact-form h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-form p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: #555;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: lavender;
+  color: lightslategray;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color:#333;
+  transform: scale(1.05);
+}
+
+/* Contact information styles with fade-in animation */
+.contact-info {
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-in;
+}
+
+.contact-info h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+      transform: translateY(100%);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+#container{
+  margin:2.5%;
+
+  color: lavenderblush;
+}
+.container1 {
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:lightcyan;
+  color: lavenderblush;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px ;
+  border: gray double 7px;
+  animation: fadeIn 1s ease-in;
+}
+.container2 {
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:lightcoral;
+  color: lavenderblush;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in;
+}
+.container3 {
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:lightslategray;
+  color: lavenderblush;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in;
+}
+.container4 {
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:lightsalmon;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in;
+}

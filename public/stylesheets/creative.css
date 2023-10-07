@@ -1,0 +1,198 @@
+
+
+
+/* Style the featurette section */
+.featurette {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0;
+    transition: transform 0.3s ease; /* Add a transition for smooth 3D effect */
+  }
+  
+  .featurette:hover {
+    transform: perspective(1000px) rotateY(10deg); /* Apply 3D rotation on hover */
+  }
+  
+  .featurette .col-md-7 {
+    padding: 0 20px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Add a transition for smooth 3D effect */
+  }
+  
+  .featurette .col-md-7 img {
+    max-width: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Add a transition for smooth 3D effect */
+  }
+  
+  .featurette h2.featurette-heading {
+    font-family:'Trebuchet MS';
+    font-size: 32px;
+    margin: 20px 0;
+    color:lightcoral; /* Change the text color to your preference */
+  }
+  
+  .featurette p.lead {
+    font-size: 18px;
+    line-height: 1.5;
+    color:lightcyan; /* Change the text color to your preference */
+  }
+  
+  .featurette .col-md-5 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Add a transition for smooth 3D effect */
+  }
+  
+  .featurette:hover .col-md-5 img {
+    transform: perspective(1000px) rotateY(-10deg); /* Apply 3D rotation on hover */
+  }
+  
+  body {
+    background-color: #121212; /* Dark background color */
+    color: lightskyblue; /* Text color */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* Style the certifications section */
+.certifications {
+    
+justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .certifications ul {
+    font-size: large;
+    font-weight: bold;
+    border-radius: 75px;
+    background-color: #333;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  .certifications h2 {
+    border-radius: 75px;
+    max-width: fit-content;
+    float: right;
+    background-color: lightskyblue;
+    color: #333;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  /* Style the skills section */
+  .skills {
+    background-color:lightslategray;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 75px;
+  }
+  
+  .skills h2 {
+    color:black;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li img{
+    width: 80px;
+    display: flex;
+    flex: space-between;    
+    margin: 0 10px;
+    font-size: 18px;
+    background-color:white;
+    color:#333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style the experience section */
+  #experience,
+  #education {
+    border-radius: 90px;
+    margin-top: 1.5%;
+    border: lightblue double 3px;
+    padding: 40px 0;
+    background-color: #333;
+    color: lightblue;
+  }
+  #experience h2,
+  #education h2 {
+    color: black;
+    border-radius: 175px;
+    padding: 10px;
+    max-width: fit-content;
+    margin-left: 44%;
+    background-color: lightskyblue;
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  .experience-item,
+  .education-item {
+    text-align: center;
+    font-weight: 200;
+    font-size: large;
+    margin-bottom: 30px;
+  }
+  
+  .experience-item h3,
+  .education-item h3 {
+    font-family: 'Arial Narrow Bold';
+    font-style: oblique;
+    font-weight: bolder;
+    color: lightcoral;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the testimonials section */
+  #testimonials {
+    background-color: lightslategray;
+    color:#333;
+    padding: 40px 0;
+  }
+  
+  #testimonials h2 {
+    font-size: 36px;
+
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  blockquote {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  cite {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style the footer */
+ 
+  

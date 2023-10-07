@@ -1,0 +1,46 @@
+<%- include('partials/header') %>
+        <link rel="stylesheet" href="/stylesheets/contact.css">
+        <link rel="stylesheet" href="/stylesheets/style.css">  
+            <section class="container">
+                    <section class="contact-form">
+                      <h2>Contact Form</h2>
+                      <p>Please fill out the form below, and we will get back to you as soon as possible.</p>
+                      <form action="submit.php" method="POST">
+                          <!-- CSRF Token for Security -->
+                          <input type="hidden" name="csrf_token" value="YOUR_CSRF_TOKEN_HERE">
+                          
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required>
+                          
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                          
+                          <label for="message">Message:</label>
+                          <textarea id="message" name="message" rows="5" required></textarea>
+                          
+                          <button type="submit">Send Message</button>
+                      </form>
+                  </section>
+                  <br>
+                  <br>
+            </section>
+            <section id="container">
+              <div class="container1">
+                <div class="container2">
+                  <div class="container3">
+                    <div class="container4">
+                      <div class="container5">
+             <div class="contact-info">
+                 <p>If you have any questions or need assistance, please feel free to reach out to us.</p>
+                 <ul>
+                     <li>Email: <a href="mailto: devnpatel7113@gmail.com">Brainy's Den@yahoo.com</a></li>
+                     <li>Phone: <a href="tel:+123456789">+1 (932) 702-0751</a></li>
+                     <li>Address: 95 GROSVENOR ST, DOWNTOWN  TORONTO,CANADA</li>
+                 </ul>
+             </section>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<%- include('partials/footer') %>
